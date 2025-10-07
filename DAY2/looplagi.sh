@@ -5,6 +5,8 @@ for ((i=1; i<=10; i++)); do
 	echo "iterasi ke-$i"
 done
 
+#loop through range v2
+
 
 #loop through list
 arr=(fa fi fu fe fo)
@@ -29,9 +31,12 @@ for element in $a; do
 	echo "element is $element"
 done
 
+#for loop through a string
 a="foo fa bar"
 
 for i in $a; do
 	echo "$i is a substring"
 
 done
+
+

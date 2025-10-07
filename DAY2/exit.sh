@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#shebang with this directory 
 
+#$? is a variable that store the execution value of last line. if its success the output would be 0 but if isn't the output would be 1-255 
 
-cd /home/draco
+which btop
 
 if [ $? -eq 1 ]; then
 	echo "there is no such a file"
@@ -11,12 +11,12 @@ else
 	echo "you are good"
 fi
 
-sudo pacman -S fastfetch
+#sudo pacman -S fastfetch
 
-if [ $? -nq 0 ]; then
-	echo "an error is encountered and preventing the package from being installed"
+#if [ $? -nq 0 ]; then
+	#echo "an error is encountered and preventing the package from being installed"
 
-else 
-	echo "installing package"
+#else 
+#	echo "installing package"
 
-fi
+#fi
