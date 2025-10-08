@@ -16,3 +16,21 @@ for ((i=1; i<=$len; i++)); do
 	echo "iterasi ke-$i"
 
 done
+
+
+#associative array type shit
+declare -A arr
+
+arr[0]=foo
+arr[2]=bar
+arr[3]=faz
+
+echo "${arr[0]}"
+
+
+arr[fo]=1
+arr[bar]=2
+arr[doo]=3
+
+echo "${arr[fo]}"
+

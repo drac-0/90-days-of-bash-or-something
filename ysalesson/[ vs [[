@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "bash with #!/usr/bin/env bash shebang"
+
+

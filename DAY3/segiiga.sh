@@ -11,5 +11,3 @@ for ((i=1; i<=length; i++)); do
 done
 
 
-for ((i=1; i<=length; i++)); do
-	for ((j=
